@@ -54,3 +54,6 @@ netstat -anlp | grep 8161
 >修改运行方式为nohup java -jar do_iptable.jar >/dev/null 2>&1 &即可。
 
 >>nohup java -jar chapter1-0.0.1-SNAPSHOT.jar >/dev/null 2>&1 &
+
+
+服务器上启动可执行jar包，java -jar xxx.jar >log.out &，&表示关闭页面后后台继续执行
