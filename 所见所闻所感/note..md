@@ -121,12 +121,12 @@
 `create database hero;`
 代码块
 
-(```)
+```
     function fun(){
          echo "这是一句非常牛逼的代码";
     }
     fun();
-(```)
+```
 效果如下：
 
 单行代码
@@ -139,6 +139,7 @@ function fun(){
   echo "这是一句非常牛逼的代码";
 }
 fun();
+
 十、流程图
 
 ```flow
