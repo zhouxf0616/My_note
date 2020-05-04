@@ -1,3 +1,6 @@
+# 登陆
+ssh -p 22 root@120.79.189.156
+
 # redis命令
 nohup ./redis-cli > /dev/null 2>&1 &
 nohup java -jar xxx.jar >/dev/null 2>&1 &
