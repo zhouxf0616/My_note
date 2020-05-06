@@ -17,3 +17,6 @@ docker ps -a
 # 4. 再次进入容器：
 
 docker attach dlgcy
+
+# 查看容器资源详情。
+docker inspect 容器  
